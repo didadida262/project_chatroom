@@ -8,7 +8,7 @@ export default function Me() {
         'hover:border-white hover:cursor-pointer',
         'fixed bottom-2 left-2',
         'duration-200',
-        // "bg-cover bg-center bg-[url('" + buddy + "')]"
+        "bg-cover bg-center bg-[url('/src/assets/images/buddy.svg')]"
         )}
         >
 
