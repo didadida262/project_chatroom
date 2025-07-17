@@ -1,7 +1,7 @@
 export default function HeaderComponent() {
   return (
     <div className="w-full h-[80px] bg-bgPrimaryColor flex items-center px-common">
-      <span className="text-[35px]">Chatroom</span>
+      <span className="text-[35px]">ChatRoom</span>
     </div>
   );
 }
