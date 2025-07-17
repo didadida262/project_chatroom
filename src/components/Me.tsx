@@ -1,4 +1,5 @@
 import cn from 'classnames'
+import buddy from '@/assets/images/buddy.svg'
 
 export default function Me() {
     return <div className={cn(
@@ -6,8 +7,11 @@ export default function Me() {
         "border-[1px] border-solid border-[#ffffff26]",
         'hover:border-white hover:cursor-pointer',
         'fixed bottom-2 left-2',
-        'duration-200'
-        )}>
+        'duration-200',
+        "bg-cover bg-center bg-[url('" + buddy + "')]"
+        )}
+        >
+
  
     </div>
 }
